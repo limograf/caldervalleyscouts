@@ -1,0 +1,57 @@
+// -----------------------------------------------------------------------------
+// This file contains CSS helper classes.
+// -----------------------------------------------------------------------------
+//temp dev svg cosh
+.nag {
+    display: none
+}
+
+// clear inner floats
+.clearfix::after {
+    clear: both;
+    content: '';
+    display: table;
+}
+
+
+// flexbox grid helper
+.chrome.col, .col {
+    display: flex;
+    flex-direction: column
+}
+.row {
+    display: flex;
+    flex-direction: row
+}
+
+.chrome.col .chrome.row .chrome.col {
+    flex-grow: 1
+}
+
+// scrollbar hide trick
+.unscroll {
+    visibility: hidden;
+    outline: 1px transparent
+}
+.scrollbar, .unscroll:hover {
+    overflow-y: scroll;
+    visibility: visible;
+}
+
+
+// screenreader text, descriptive and structural landmarking
+.landmark {
+    border: 0;
+    clip: rect(0 0 0 0);
+    height: 1px;
+    margin: -1px;
+    overflow: hidden;
+    padding: 0;
+    position: absolute;
+    width: 1px;
+}
+.landmark:focus {
+    width: auto;
+    height: auto;
+    margin: auto;
+}

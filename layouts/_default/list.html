@@ -1,0 +1,10 @@
+{{ define "main" }}
+<ul class="cards">
+    {{ range .Paginator.Pages }}
+    <li class="card {{.Type }}">{{ partial "card.html" .}}</li>
+    {{ end }}
+</ul>
+
+{{ template "_internal/pagination.html" . }} {{ end }}
+
+

@@ -1,0 +1,28 @@
+/**
+ * Basic typography styles
+ */
+@import url('https://fonts.googleapis.com/css?family=Nunito+Sans:400,900|Inconsolata');
+body {
+  color: $foreground;
+  font: normal 1rem / 1.4 $copy;
+}
+
+.heading {
+	font-family: $display;
+	line-height: 1;
+}
+
+html {
+  font-size: 16px;
+
+  @media (max-width: 1000px) {
+    font-size: calc(16px + .4vw);
+  }
+}
+
+
+.site, .brand {
+	font-family: $brand-font;
+	color: $brand;
+	font-weight:900;
+}

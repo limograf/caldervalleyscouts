@@ -1,0 +1,12 @@
+// -----------------------------------------------------------------------------
+// This file contains all styles related to the footer of the site/application.
+// -----------------------------------------------------------------------------
+
+footer.region {
+	background: $brand;
+	color: $tertiary;
+	display: flex;
+	justify-content: space-between; 
+	padding: $gutter;
+	margin:auto 0 0 0
+}

@@ -1,0 +1,14 @@
+<nav id="site-drawer" class="region">
+    <ul class="nav menu">
+    	{{ range .Site.Params.articles }}
+        <li class='item'><a href="/articles/{{ . }}">{{ . }}</a></li>
+        {{ end }}
+    </ul>
+    <ul class="nav menu">
+        <!-- TODO: for pages in about section list-->
+  
+        {{ range where .Site.RegularPages "Section" "about"}}
+        <li class="item"><a href="{{.Permalink}}">{{.Title}}</a></li>
+        {{end}}
+    </ul>
+</nav>

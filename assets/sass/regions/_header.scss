@@ -1,0 +1,19 @@
+// -----------------------------------------------------------------------------
+// This file contains all styles related to the header of the site/application.
+// -----------------------------------------------------------------------------
+
+header.region {
+	display:flex; 
+	justify-content: space-between; 
+	align-items: center;
+	background: $brand;
+	width:100%;
+	& h1.heading {
+		line-height: 1;
+		padding: $gutter;
+		margin: $gutter;
+	}
+	& a{ 
+		color:$background;
+	}
+}

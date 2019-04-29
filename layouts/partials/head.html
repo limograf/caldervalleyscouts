@@ -1,0 +1,6 @@
+<head>
+    <title>{{ .Site.params.Title . }}</title>
+    <base href="{{ .Site.BaseURL }}">
+    {{ $style := resources.Get "sass/main.scss" | toCSS | minify | fingerprint }}
+    <link rel="stylesheet" href="{{ $style.Permalink }}" type="text/css">
+</head>

@@ -1,0 +1,29 @@
+// -----------------------------------------------------------------------------
+// Main and children of main
+// -----------------------------------------------------------------------------
+
+main.region {
+	padding: $gutter;
+	flex-grow:1;
+	& h2 {
+		margin: $gutter 0;
+	}
+}
+
+article {
+	margin: 0;
+	padding: $gutter * 4;
+
+	& header .hero {
+	display:block;
+	margin: -$gutter;
+	}
+	& .copy {
+		margin: $gutter;
+		@include breakpoint(laptop) {
+			max-width: 55em;
+			margin:auto;
+
+		}
+	}
+}

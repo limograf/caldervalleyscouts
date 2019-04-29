@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>{{ .Site.Title }}</title>
+    <base href="{{ .Site.BaseURL }}">
+    {{ $style := resources.Get "sass/main.scss" | toCSS | minify | fingerprint }}
+<link rel="stylesheet" href="{{ $style.Permalink }}"  type="text/css" >
+
+</head>
+
+<body class="{{.Title | lower }}">
+    <a class="landmark" href="#content">skip to main content</a>
+    <div class="container">
+        {{ partial "drawer.html" .}}
+        <div id="push" class="wrapper">
+            {{ block "header" .}}
+            <header id="site-header" class="region">
+                <h1 class="site header"><a href="/"><img src="{{ .Site.Params.logo}}" alt="{{ .Site.Title }}" class="logo" /><span class="landmark">{{ .Site.Title }}</span></a></h1>
+                <div class="search group">
+                    <label for="search">
+                        <input type="search" placeholder="Search..." id="search" name="search" /><i class="search icon"></i></label>
+                    <div class="results" aria-live="polite"></div>
+                </div>
+            </header>
+            {{ end }} 
+          
+            <main id="site-main" class="region"> 
+            <h2 class="page header">{{.Title }}</h2>
+            {{ block "main" . }} {{end}}
+            </main>
+        </div>
+        {{ partialCached "footer.html" . }}
+    </div>
+    {{ partial "js.html" . }}
+</body>
+
+</html>
