@@ -1,9 +1,11 @@
 <footer id="site-footer" class="region">
-  <nav class="socials">
+  <div class="container">
+    <nav class="socials">
   	<!-- TODO for site in site.social-->
   	<a href="" title=""><i class="icon"></i></a>
   </nav>
 
   <a href="/"><picture class="logo"><img src="{{ .Site.Params.logo }}" alt="{{ .Site.Params.title}}" /></picture></a>
   <p class="copyright"><i class="copyright icon"></i> {{ .Site.Params.copyright }} {{ now.Format "2006" }}</p>
+</div> 
 </footer>

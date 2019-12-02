@@ -1,5 +1,6 @@
 <a class="wrapper" href="{{ .Permalink }}"> 
 	<h3 class="heading">{{ .Title }}</h3>
-	<blockquote>{{.Params.pitch }}</blockquote>
-	<picture> <img src="{{ .Params.hero }}" alt="" /></picture>
+	{{ with .Params.picture }}
+	<img src="../images/{{. }}.jpg" alt="" />
+	{{ end }}
 </a>

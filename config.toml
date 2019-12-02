@@ -1,3 +1,9 @@
 baseURL = "http://example.org/"
 languageCode = "en-us"
 title = "Calder Valley Scouts"
+disableKinds = ["taxonomy", "taxonomyTerm"]
+[Params]
+  logo = "/images/Scouts_Logo_Stack_White.png"
+
+
+

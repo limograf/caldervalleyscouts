@@ -1,17 +1,25 @@
 //menus
 
 
-.menu, .list {
-	list-style:none;
-	margin:0;
-	padding:0;
-	& .item {
-		margin: $gutter;
-	}
+.menu,
+.list {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+
+  & .item {
+    margin: $gutter;
+  }
 }
 
-.tags {
-	display: flex;
-	flex-wrap: row-wrap;
-}
+.breadcrumbs ol {
+  display: flex;
 
+  li {
+    padding-right: $gutter;
+
+    &::after {
+      content: '> ';
+    }
+  }
+}

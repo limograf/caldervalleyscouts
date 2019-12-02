@@ -3,17 +3,26 @@
 // -----------------------------------------------------------------------------
 
 header.region {
-	display:flex; 
-	justify-content: space-between; 
-	align-items: center;
-	background: $brand;
-	width:100%;
-	& h1.heading {
-		line-height: 1;
-		padding: $gutter;
-		margin: $gutter;
-	}
-	& a{ 
-		color:$background;
-	}
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: $brand;
+  width: 100%;
+
+  h1 {
+    line-height: 1;
+    padding: 0;
+    margin: 0 auto;
+  }
+
+  & a {
+    color: $background;
+  }
+
+  button {
+    transform: scale(2);
+    position: absolute;
+    top: 30px;
+    right: 20px;
+  }
 }

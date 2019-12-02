@@ -4,22 +4,19 @@
 
 
 button {
-	color: $tertiary;
-	@include borders;
-	@include block;
-	@include on-event {
-		color: $highlight;
-        background-color: $lighten;
-        border-color: $darken;
-    }
+  color: $tertiary;
+  @include borders;
+  @include block;
+  @include on-event {
+    color: $highlight;
+    background-color: $lighten;
+    border-color: $darken;
+  }
 }
 
 button.icon {
-    	background:transparent;
-    	border:0;
-    	@include when-inside('.form') {
-    		@include on-event {
-    			color: $highlight
-    		}
-    	}
-    }
+  background: transparent;
+  border: 0;
+  width: 48px;
+  height: 48px;
+}

@@ -9,27 +9,23 @@ $copy: 'Nunito Sans', 'Helvetica', 'Arial', sans-serif !default;
 $display: 'Nunito Sans', sans-serif !default;
 /// Code (monospace) font family
 /// @type List
-$mono: 'Inconsolata','Monaco', monospace !default;
-
+$mono: 'Inconsolata', 'Monaco', monospace !default;
 $brand-font: 'Nunito Sans', 'Helvetica', 'Arial', sans-serif !default;
 
 // colours etc 
-
-$brand: #7413DC !default ; //Scout purple
-$background:#f5f5f5 !default; 
-$foreground: #000 !default;
-$highlight: #00A794 !default; //Scout teal
+$brand: #7413dc !default; //Scout purple
+$background: #f5f5f5 !default;
+$foreground: #404040 !default;
+$highlight: #00a794 !default; //Scout teal
 
 //extra detail
-$primary: #7413DC !default; // Scout purple
-$secondary: #00A794  !default; // Scout teal
+$primary: #7413dc !default; // Scout purple
+$secondary: #00a794  !default; // Scout teal
 $tertiary: #fff !default; // white
-
-$darken: rgba(0,0,0,0.1); // add .1 darker NOTE SASS supports lighten, darken
-$lighten: rgba(255,255,255,0.1); // add .1 lighter 
+$darken: rgba(0, 0, 0, 0.1); // add .1 darker NOTE SASS supports lighten, darken
+$lighten: rgba(255, 255, 255, 0.1); // add .1 lighter 
 
 //adjust-hue, lighten, darken, saturate, desaturate, alpha (rgba $var 0.1)
-
 $gutter: 0.5rem;
 
 

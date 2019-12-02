@@ -1,8 +1,18 @@
 
 {{ define "main" }}
-<article>
-      <h2>{{ .Title }}</h2>
-      {{ .Content }}
+<article class="page">
+      <header class="header {{ with .Params.picture }}hero{{end}}">
+      	{{ with .Params.picture }}
+	<img class="hero picture" src="../images/{{. }}.jpg" alt="" />
+	{{ end }}
+      	<h2 class="heading">{{ .Title }}</h2>
+      	{{ partial "breadcrumbs.html" .}}
+      </header> 
+
+      <div class="content">
+      	{{ .Content }}
+      </div> 
+
     </article>
 
 {{ end }}

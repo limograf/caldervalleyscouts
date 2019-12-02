@@ -4,54 +4,11 @@
 
 
 .card {
-	display:flex;
-	@include on-event {
-		outline: 4px solid $brand;
-	& .pitch {
-		top:0
-		}
-	}
-	& .wrapper {
-		@include block;
-		position: relative;
-		overflow:hidden;
-		margin: $gutter;
-		display:flex;
-		flex-direction:column-reverse;
-		justify-content: space-between;
-		
-	}
-	& .pitch {
-		position:absolute;
-		top:-100%; left:0; right:0; margin:0; width:100%; height:100%; overflow: hidden;
-		transition: top 500ms ease-in;
-		background: rgba( $background, .7 );
-		padding: $gutter;
-
-	}
-	& .heading {
-		padding: $gutter
-	}
-	@include breakpoint(tablet) { 
-		width: (100% / 2) 
-	}
-	@include breakpoint(laptop) { 
-		width: (100% / 3) 
-	}
-	@include breakpoint(desktop) { 
-		width: (100% / 6) 
-	}
-	@include when-inside('footer') {
-       	width: (100% / 6) ;
-       	min-width: 150px;
-       	& .pitch { display:none}
-	}
+  width: 320px;
 }
 
 .cards {
-	margin:auto;
-	padding:0;
-	display:flex;
-	flex-wrap: wrap;
-	justify-content: space-around;
+  margin: auto;
+  padding: 0;
+  display: grid;
 }

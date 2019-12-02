@@ -1,28 +1,53 @@
 /**
  * Basic typography styles
  */
-@import url('https://fonts.googleapis.com/css?family=Nunito+Sans:400,900|Inconsolata');
-body {
-  color: $foreground;
-  font: normal 1rem / 1.4 $copy;
-}
-
 .heading {
-	font-family: $display;
-	line-height: 1;
+  font-family: $display;
+  font-weight: 900;
+  line-height: 1;
 }
 
 html {
-  font-size: 16px;
+  font-size: 18px;
+  color: #404040;
 
   @media (max-width: 1000px) {
-    font-size: calc(16px + .4vw);
+    font-size: calc(18px + .4vw);
   }
 }
 
+body {
+  color: $foreground;
+  font: normal 1em / 1.4 $copy;
+}
+//http://spencermortensen.com/articles/typographic-scale/
+h1 {
+  font-size: 48px;
+}
 
-.site, .brand {
-	font-family: $brand-font;
-	color: $brand;
-	font-weight:900;
+h2 {
+  font-size: 36px;
+}
+
+h3 {
+  font-size: 30px;
+}
+
+h4 {
+  font-size: 24px;
+}
+
+h5 {
+  font-size: 21px;
+}
+
+h6 {
+  font-size: 18px;
+}
+
+.site,
+.brand {
+  font-family: $brand-font;
+  color: $brand;
+  font-weight: 900;
 }

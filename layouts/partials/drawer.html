@@ -1,14 +1,17 @@
-<nav id="site-drawer" class="region">
+<!-- https://gohugo.io/templates/menu-templates/ -->
+
+<nav id="site-drawer" class="drawer region" aria-label="Main Pages. ">
+    <h3 class="heading bar">Menu 
+        <button class="icon button" id="closeMenu">
+        <svg xmlns="http://www.w3.org/2000/svg" width="36" height="36" viewBox="0 0 36 36">
+            <title>Close Menu</title> 
+            <path d="M14.53 4.53l-1.06-1.06L9 7.94 4.53 3.47 3.47 4.53 7.94 9l-4.47 4.47 1.06 1.06L9 10.06l4.47 4.47 1.06-1.06L10.06 9z" fill="currentColor" /></svg>
+    </button> 
+</h3> 
     <ul class="nav menu">
-    	{{ range .Site.Params.articles }}
-        <li class='item'><a href="/articles/{{ . }}">{{ . }}</a></li>
-        {{ end }}
-    </ul>
-    <ul class="nav menu">
-        <!-- TODO: for pages in about section list-->
-  
-        {{ range where .Site.RegularPages "Section" "about"}}
-        <li class="item"><a href="{{.Permalink}}">{{.Title}}</a></li>
-        {{end}}
+        <li class="item"><a href="/about/">About Us</a></li>
+        <li class="item"><a href="/contact/">Contact Us</a></li>
+        <li class="item"><a href="/join/">Join Us</a></li>
+        <li class="item"><a href="/bookings/">Minibus</a></li>
     </ul>
 </nav>

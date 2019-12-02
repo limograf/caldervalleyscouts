@@ -26,11 +26,20 @@ body {
 a {
   color: $brand;
   text-decoration: none;
+  font-weight: bold;
 
   @include on-event {
     color: $highlight;
     text-decoration: underline;
   }
+}
+
+// container
+
+.container {
+  max-width: 1140px;
+  margin:auto;
+  padding: $gutter;
 }
 
 

@@ -4,30 +4,31 @@
 
 //mobile first
 
-.drawer.region { 
-	transition:width 500ms ease;
-	width:0;
-	overflow: hidden;
-	& .wrapper {
-		@include invert;
-		min-height:100vh;
-		padding: $gutter;
-	}
-	@include breakpoint(laptop) { 
-		width: 300px; 
-	}
+.drawer {
+  transition: transform 500ms ease;
+  width: 320px;
+  transform: translateX(-320px) rotate(45deg);
+  position: fixed;
+  z-index: 100;
+  padding: $gutter;
+  background: $background;
+  box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);
 }
 
-nav.drawer.toggle {
-	width:300px;
-	@include breakpoint(phone) { 
-		width:100vw; 
-		position: absolute;
-		z-index:50;
-	}
-	@include breakpoint(laptop) { 
-		width: 0; 
-	}
+.drawer.toggle {
+  transform: translateX(10px) translateY(15px) rotate(-2.5deg);
+  @include breakpoint(phone) {
+    width: 100vw;
+  }
+}
+
+.bar {
+  margin: -#{$gutter} -#{$gutter} $gutter;
+  padding: 1rem $gutter $gutter;
+  display: flex;
+  justify-content: space-between;
+  background: $highlight;
+  color: $background;
 }
 
 

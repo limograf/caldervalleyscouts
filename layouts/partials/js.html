@@ -1,1 +1,13 @@
-<script src="https://unpkg.com/infinite-scroll@3/dist/infinite-scroll.pkgd.min.js"></script>
+<script>
+function toggleMenu() {
+    mainMenu.classList.toggle('toggle');
+}
+let mainMenu = document.querySelector('.drawer');
+let openMenu = document.getElementById('openMenu');
+let closeMenu = document.getElementById('closeMenu');
+
+openMenu.addEventListener("click", toggleMenu);
+openMenu.addEventListener("keyup", toggleMenu);
+closeMenu.addEventListener("click", toggleMenu);
+closeMenu.addEventListener("keyup", toggleMenu);
+</script>

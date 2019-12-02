@@ -1,5 +1,6 @@
 ---
-title: Bookings
+title: 'Bookings'
+picture: balloons-and-minibus-at-london-pride-jpg
 ---
 
-Booking calendar
+Booking calendar goes here
