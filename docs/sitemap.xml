@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+  xmlns:xhtml="http://www.w3.org/1999/xhtml">
+  
+  <url>
+    <loc>http://example.org/</loc>
+  </url>
+  
+  <url>
+    <loc>http://example.org/about/</loc>
+  </url>
+  
+  <url>
+    <loc>http://example.org/bookings/</loc>
+  </url>
+  
+  <url>
+    <loc>http://example.org/contact/</loc>
+  </url>
+  
+  <url>
+    <loc>http://example.org/facebook/</loc>
+  </url>
+  
+  <url>
+    <loc>http://example.org/join/beavers/</loc>
+  </url>
+  
+  <url>
+    <loc>http://example.org/join/cubs/</loc>
+  </url>
+  
+  <url>
+    <loc>http://example.org/join/explorers/</loc>
+  </url>
+  
+  <url>
+    <loc>http://example.org/join/</loc>
+  </url>
+  
+  <url>
+    <loc>http://example.org/join/scouts/</loc>
+  </url>
+  
+  <url>
+    <loc>http://example.org/join/volunteer/</loc>
+  </url>
+  
+</urlset>
