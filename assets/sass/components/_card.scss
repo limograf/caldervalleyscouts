@@ -18,10 +18,10 @@
 }
 
 .cards {
-  margin: auto;
+  margin: auto auto $gutter auto;
   padding: 0;
   display: grid;
-  gap: $gutter;
+  gap: ($gutter*2);
   grid-template-columns: repeat(var(--cols), 1fr);
   list-style: none;
 }
