@@ -1,4 +1,4 @@
-baseURL = "http://example.org/"
+baseURL = "http://limograf.com/caldervalleyscouts/"
 languageCode = "en-us"
 title = "Calder Valley Scouts"
 disableKinds = ["taxonomy", "taxonomyTerm"]
