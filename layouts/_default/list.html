@@ -1,11 +1,18 @@
 {{ define "main" }}
-<ul class="cards">
-    {{ range .Paginator.Pages }}
-    <li class="card {{.Type }}">{{ partial "card.html" .}}</li>
+
+{{ $posts := .Site.RegularPages }}
+{{ $postCount := len $posts }}
+
+
+{{.Content}}
+
+<ul class="{{ if not (modBool $postCount 2)}}odd{{end}} group of {{$postCount}} cards">
+    {{ range .Site.RegularPages }}
+    <li class="{{.Type }} item">{{ partial "card.html" .}}</li>
     {{ end }}
 </ul>
 
-{{ template "_internal/pagination.html" . }} 
+
 
 {{ end }}
 

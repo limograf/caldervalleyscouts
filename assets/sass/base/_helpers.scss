@@ -28,3 +28,27 @@
   height: auto;
   margin: auto;
 }
+
+// turn off elements at breakpoints 
+$breakpoints: (phone, phablet, tablet, laptop, desktop);
+
+@each $point in $breakpoints {
+  @include breakpoint($point) {
+    .h-not--#{$point} {
+      display: none;
+    }
+  }
+}
+
+// faster
+@media (max-width: 37.5em) {
+  .h-except-phone {
+    display: none;
+  }
+}
+
+@media (max-width: 70em) {
+  .h-only-desktop {
+    display: none;
+  }
+}

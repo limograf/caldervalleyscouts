@@ -4,11 +4,26 @@
 
 
 .card {
-  width: 320px;
+  flex: 1 1 480px;
+  display: flex;
+  flex-flow: column nowrap;
+
+  .picture {
+    min-width: 320px;
+  }
+
+  .heading {
+    order: 2;
+  }
 }
 
 .cards {
   margin: auto;
   padding: 0;
   display: grid;
+  gap: $gutter;
+  grid-template-columns: repeat(var(--cols), 1fr);
+  list-style: none;
 }
+
+//I have written a short query to count how many cards there are and give us a class of "odd" and also the number, so as an advanced challenge, try changing how the last cards display

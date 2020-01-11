@@ -1,6 +1,21 @@
-<a class="wrapper" href="{{ .Permalink }}"> 
+<!-- https://gohugo.io/content-management/image-processing -->
+<!-- here we are getting params from the page-->
+
+<a class="card" href="{{ .Permalink }}"> 
 	<h3 class="heading">{{ .Title }}</h3>
-	{{ with .Params.picture }}
-	<img src="../images/{{. }}.jpg" alt="" />
-	{{ end }}
+	<div class="picture">
+		{{ $cover := .Resources.GetMatch "header" }}
+
+<!-- we want to take the big picture from the header and size it down to a "cover image" so the page isn't too big. The bigger the page, the slower the website.-->
+<!-- make sure the cover image exists first!-->
+{{ if $cover }}
+
+<!-- now resize the resource-->
+{{ $cover := $cover.Resize "600x400" }}
+
+<!-- now show it -->
+	<img src="{{ $cover.RelPermalink }}" alt="" />
+	{{end}}
+</div> 
+
 </a>

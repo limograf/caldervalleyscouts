@@ -1,0 +1,8 @@
+.logo {
+  max-width: 200px;
+  transition: all .3s;
+
+  &.is-scrolled {
+    max-width: 100px;
+  }
+}

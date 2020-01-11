@@ -3,10 +3,24 @@
 // -----------------------------------------------------------------------------
 
 footer.region {
-	background: $brand;
-	color: $tertiary;
-	display: flex;
-	justify-content: space-between; 
-	padding: $gutter;
-	margin:auto 0 0 0
+  background: $brand;
+  color: $tertiary;
+  margin: auto 0 0 0;
+  padding: $gutter;
+
+  .container {
+    margin: auto;
+    padding: $gutter 0;
+    text-align: center;
+  }
+
+  .facebook {
+    padding: $gutter;
+
+    svg {
+      transform: scale(1);
+      width: 20vw;
+      max-width: 200px;
+    }
+  }
 }

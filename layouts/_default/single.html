@@ -1,16 +1,40 @@
 
 {{ define "main" }}
+{{ $hero := .Resources.GetMatch "header" }}
 <article class="page">
-      <header class="header {{ with .Params.picture }}hero{{end}}">
-      	{{ with .Params.picture }}
-	<img class="hero picture" src="../images/{{. }}.jpg" alt="" />
+      <header class="header {{if $hero}}hero{{end}}">
+  {{if $hero}}
+  {{ $hero := $hero.Fill "1680x530" }}
+	<div class="image">
+    <img class="hero picture" src="{{ $hero.RelPermalink }}" alt="" /></div> 
 	{{ end }}
       	<h2 class="heading">{{ .Title }}</h2>
-      	{{ partial "breadcrumbs.html" .}}
+      	<div class="container">{{ partial "breadcrumbs.html" .}}</div> 
       </header> 
 
       <div class="content">
+       
+
       	{{ .Content }}
+
+        <!-- if there is a link to the scouts site show it now -->
+        {{ with .Params.scoutslink }}
+         <a href="{{.}}" class="cta scoutslink">
+       
+          <h4 class="heading">Find out more on the main Scouts website</h4> 
+         <p class="content">All about</p>
+       </a> 
+       {{ end }}
+
+
+        <!-- if there is a join link we show it now -->
+        {{ with .Params.join }}
+        <section class="cta join">
+          <h4 class="heading"><a href="{{.}}">Join</a></h4>
+        </section> 
+        {{end}} 
+
+
       </div> 
 
     </article>

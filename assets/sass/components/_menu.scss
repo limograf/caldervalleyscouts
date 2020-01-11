@@ -21,5 +21,13 @@
     &::after {
       content: '> ';
     }
+
+    &:last-of-type {
+      text-decoration: underline;
+
+      &::after {
+        content: "";
+      }
+    }
   }
 }

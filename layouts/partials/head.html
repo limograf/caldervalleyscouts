@@ -1,6 +1,12 @@
 <head>
-    <title>{{ .Site.params.Title . }}</title>
+    <title>{{ .Site.Title }}</title>
     <base href="{{ .Site.BaseURL }}">
     {{ $style := resources.Get "sass/main.scss" | toCSS | minify | fingerprint }}
+    <link href="https://fonts.googleapis.com/css?family=Nunito+Sans:400,700,900&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="{{ $style.Permalink }}" type="text/css">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta charset="utf-8" />
+    <meta name="HandheldFriendly" content="true">
+    <meta name="MobileOptimized" content="600">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
 </head>

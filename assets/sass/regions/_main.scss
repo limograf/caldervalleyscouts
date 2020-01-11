@@ -3,27 +3,30 @@
 // -----------------------------------------------------------------------------
 
 main.region {
-	padding: $gutter;
-	flex-grow:1;
-	& h2 {
-		margin: $gutter 0;
-	}
+  padding: $gutter;
+  flex-grow: 1;
+  min-height: 75vh;
+
+  & h2 {
+    margin: $gutter 0;
+  }
+}
+
+.content {
+  display: block;
+  margin: auto;
+  padding: $gutter 0;
 }
 
 article {
-	margin: 0;
-	padding: $gutter * 4;
+  margin: 0;
+  padding: $gutter * 4;
 
-	& header .hero {
-	display:block;
-	margin: -$gutter;
-	}
-	& .copy {
-		margin: $gutter;
-		@include breakpoint(laptop) {
-			max-width: 55em;
-			margin:auto;
-
-		}
-	}
+  & .copy {
+    margin: $gutter;
+    @include breakpoint(laptop) {
+      max-width: 55em;
+      margin: auto;
+    }
+  }
 }

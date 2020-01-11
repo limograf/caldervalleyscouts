@@ -1,0 +1,15 @@
+{{ define "main" }}
+
+{{.Content}}
+
+<ul class="group of cards">
+    {{ range where .Pages "Section" "join"  }}
+    <li class="{{.Type }} item">{{ partial "card.html" .}}</li>
+    {{ end }}
+</ul>
+
+
+
+{{ end }}
+
+

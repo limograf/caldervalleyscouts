@@ -8,6 +8,7 @@ header.region {
   align-items: center;
   background: $brand;
   width: 100%;
+  z-index: 2;
 
   h1 {
     line-height: 1;
@@ -24,5 +25,11 @@ header.region {
     position: absolute;
     top: 30px;
     right: 20px;
+  }
+
+  .logo {
+    @include breakpoint(phone) {
+      max-width: 200px;
+    }
   }
 }

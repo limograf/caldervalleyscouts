@@ -1,0 +1,19 @@
+// CTA means call to action, and it's how we describe little blocks that ask you to do something
+
+
+.cta {
+  &.scoutslink {
+    background: $highlight;
+    color: $brand;
+    padding: $gutter;
+    margin: auto;
+    display: flex;
+    margin: 0 calc(-1 * calc(calc(100vw - 30em) / 2));
+    transform: rotate(-2deg);
+  }
+
+  &.join {
+    background: $brand;
+    color: $background;
+  }
+}

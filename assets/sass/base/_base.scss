@@ -16,10 +16,11 @@ html {
 }
 
 body {
-	background:$background; 
-	color:$foreground; 
-	padding:0;
-	margin:0
+  background: $background;
+  color: $foreground;
+  padding: 0;
+  margin: 0;
+  overflow-x: hidden;
 }
 
 //links
@@ -32,14 +33,30 @@ a {
     color: $highlight;
     text-decoration: underline;
   }
+
+  &:focus {
+    outline: 3px dotted;
+  }
 }
 
 // container
 
 .container {
-  max-width: 1140px;
-  margin:auto;
+  max-width: 60em;
+  margin: auto;
   padding: $gutter;
+}
+
+// grid
+
+:root {
+  --cols: 1;
+  @include breakpoint(phablet) {
+    --cols: 2;
+  }
+  @include breakpoint(laptop) {
+    --cols: 3;
+  }
 }
 
 
