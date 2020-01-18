@@ -12,6 +12,6 @@ We meet at [Central Methodist Church](https://calderdalemethodists.org.uk/church
 
 The boys and girls in the Group do loads of activities around Todmorden and further afield. We have our own [minibuses](/bookings), which we use for camps and trips, and which are available for use by other community groups.
 
-We welcome and encourage you to join us!
+We welcome and encourage you to join us! Write anything here.
 
 [Volunteer](/join/volunteer) | [Join Up](/join/)
