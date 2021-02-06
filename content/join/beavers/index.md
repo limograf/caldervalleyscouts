@@ -1,6 +1,6 @@
 +++
 title= "Join Beavers"
-join = "/contact"
+join = "contact"
 scoutslink = "https://scouts.org.uk/beavers/"
 tagline= "Try new things. Make new friends. Joining Beavers is just the beginning of your big adventure."
 

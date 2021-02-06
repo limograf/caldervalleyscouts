@@ -6,7 +6,7 @@ title= 'Volunteering with Scouts'
   src= "male-leader-supporting-beavers-jpg.jpg"
   
 hero ='You Look Like A Role Model'
-contact = "/contact"
+contact = "contact"
 scoutslink = "https://scouts.org.uk/volunteer/"
 +++
 
