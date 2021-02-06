@@ -12,13 +12,13 @@ Jump in and get muddy. Give back and get set. Scouts ignore the butterflies and 
 
 ### Key Info
 
-[Beavers](/join/beavers) are for boys and girls from 6 to 8 years old, and meet from 5.30pm to 6.45pm every Friday
+[Beavers](join/beavers) are for boys and girls from 6 to 8 years old, and meet from 5.30pm to 6.45pm every Friday
 
-[Cubs](/join/cubs) are for boys and girls from 8 to 11 years old, and meet from 6.00pm to 7.15pm every Thursday. 
+[Cubs](join/cubs) are for boys and girls from 8 to 11 years old, and meet from 6.00pm to 7.15pm every Thursday. 
 
-[Scouts](/join/scouts) are for boys and girls from 11 to 14 years old, and meet from 7.30pm to 9.15pm every Thursday.
+[Scouts](join/scouts) are for boys and girls from 11 to 14 years old, and meet from 7.30pm to 9.15pm every Thursday.
 
-[Explorers](/join/explorers) are for boys and girls from 14 to 18 years old, and meet from 7.30pm to 9.15pm every Thursday.
+[Explorers](join/explorers) are for boys and girls from 14 to 18 years old, and meet from 7.30pm to 9.15pm every Thursday.
 
 ### Join us
 
