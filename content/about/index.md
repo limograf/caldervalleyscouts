@@ -14,4 +14,4 @@ The boys and girls in the Group do loads of activities around Todmorden and furt
 
 We welcome and encourage you to join us! Write anything here.
 
-[Volunteer](join/volunteer) | [Join Up](/join/)
+[Volunteer](join/volunteer) | [Join Up](join/)
