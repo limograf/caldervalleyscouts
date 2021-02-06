@@ -3,7 +3,7 @@ title = 'About'
 
 [[resources]]
   name = "header"
-  src = "default.jpg"
+  src = "KayakAboutPage.jpg"
 +++
 
 ### About [8th/26th Calder Valley](https://scouts.org.uk/groups/8th26th-calder-valley-scout-group) Scouts
