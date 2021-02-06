@@ -16,5 +16,8 @@ As both of these minibuses have been bought with some very generous grant fundin
 
 Rates for both minibuses are **50p per mile including all fuel**, with a minimum charge of **£15 per day**. Please pay the day rate to reserve the day.
 
+### Blue Minibus 
+{{< blue >}}
 
-{{< calendar >}}
+### White Minibus
+{{< white >}}
