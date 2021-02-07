@@ -3,7 +3,7 @@ title= 'Volunteering with Scouts'
 
 [[resources]]
   name= "header"
-  src= "male-leader-supporting-beavers-jpg.jpg"
+  src= "scoutleader.jpg"
   
 hero ='You Look Like A Role Model'
 contact = "/contact"

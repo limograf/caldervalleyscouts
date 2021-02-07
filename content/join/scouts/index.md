@@ -3,7 +3,7 @@ title= 'Join Scouts'
 
 [[resources]]
   name = "header"
-  src = "scout-canoeing-jpg.jpg"
+  src = "Walk4scouts.jpg"
 tagline= 'Jump in and get muddy. Give back and get set. Scouts ignore the butterflies and go for it, and soon so will you.'
 scoutslink= "https://scouts.org.uk/scouts/"
 join= "/contact"
