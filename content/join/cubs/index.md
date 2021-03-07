@@ -3,7 +3,7 @@ title= 'Join Cubs'
 
 [[resources]]
   name = "header"
-  src = "cubsriverwalk.jpg"
+  src = "cubsbridge.jpg"
  
 join= "/contact"
 scoutslink= "https://scouts.org.uk/cubs/"
