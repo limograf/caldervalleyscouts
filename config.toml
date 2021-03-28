@@ -1,4 +1,4 @@
-baseURL = "http://caldervalleyscouts.org.uk/"
+baseURL = "https://caldervalleyscouts.org.uk/"
 languageCode = "en-us"
 title = "Calder Valley Scouts"
 disableKinds = ["taxonomy", "taxonomyTerm"]
