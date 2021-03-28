@@ -1,5 +1,5 @@
 +++
-title= 'Bookings'
+title= 'Minibus Bookings'
 
 [[resources]]
   name = "header"
