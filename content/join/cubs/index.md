@@ -11,5 +11,5 @@ tagline= 'Develop new skills. Soar to great heights. Being a Cub opens up a whol
 
 +++
 
-## Cubs - 8 to 10½ years
-Cubs is for boys and girls from 8 to 10½ years old who love adventures and the outdoors. They meet from 5.45pm to 7.15pm every Thursday.
+## Cubs - 8 to 11 years
+Cubs is for boys and girls from 8 to 11 years old who love adventures and the outdoors. They meet from 5.45pm to 7.15pm every Thursday.
