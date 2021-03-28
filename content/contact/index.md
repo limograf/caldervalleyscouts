@@ -7,6 +7,11 @@ title= 'Contact Us'
 
 +++
 
-{{< contact-typeform >}}
+## Contacting Calder Valley Scouts in Todmorden
+You can contact us:
+* by email at [dave@caldervalleyscouts.org.uk](mailto:dave@caldervalleyscouts.org.uk)
+* Or by phone on [08432890163](tel:0843289016)
+* Or find us on [Facebook](https://www.facebook.com/groups/248962278554651)
+* Or fill in our contact form below:
 
-[dave@caldervalleyscouts.org.uk](mailto:dave@caldervalleyscouts.org.uk) | [08432890163](tel:0843289016) | [Facebook](https://www.facebook.com/groups/248962278554651)
+{{< contact-typeform >}}
