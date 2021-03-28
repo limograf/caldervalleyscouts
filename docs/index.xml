@@ -5,39 +5,24 @@
     <link>http://limograf.com/caldervalleyscouts/</link>
     <description>Recent content in 8th/26th Calder Valley Scouts on Calder Valley Scouts</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>en-us</language>
-    
-	<atom:link href="http://limograf.com/caldervalleyscouts/index.xml" rel="self" type="application/rss+xml" />
-    
-    
+    <language>en-us</language><atom:link href="http://limograf.com/caldervalleyscouts/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>About</title>
       <link>http://limograf.com/caldervalleyscouts/about/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>http://limograf.com/caldervalleyscouts/about/</guid>
-      <description>About 8th/26th Calder Valley Scouts We meet at Central Methodist Church, Todmorden and have been in existence over 50 years. We accept all Christian denominations and all religions or none. We do not attend regular church parades at Central, but we do support the RBL’s remembrance day and Veteran’s day parades. We also support Todmorden Gang Show, which has been running nearly as long as the Group!
+      <description>About 8th/26th Calder Valley Scouts We meet at Central Methodist Church, Todmorden and have been in existence for over 50 years. We accept all Christian denominations and all religions or none. We do not attend regular church parades at Central, but we do support the RBL’s remembrance day and Veteran’s day parades. We also support Todmorden Gang Show, which has been running nearly as long as the Group!
 The boys and girls in the Group do loads of activities around Todmorden and further afield.</description>
     </item>
     
     <item>
-      <title>Bookings</title>
-      <link>http://limograf.com/caldervalleyscouts/bookings/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>http://limograf.com/caldervalleyscouts/bookings/</guid>
-      <description>We have 2 minibuses which are available for use by other community groups.
-Our newer bus is a 2013 Ford Transit 17 seater. This bus has a towbar fitted so can be used with a trailer. As it is over 3.5 tonnes, drivers need category D1 on their licence to drive this bus.
-Our second bus is a 2006 LDV Convoy. It is a 17 seater again, but 12 of the seats are removable and it has a wheelchair lift fitted.</description>
-    </item>
-    
-    <item>
-      <title>Contact</title>
+      <title>Contact Us</title>
       <link>http://limograf.com/caldervalleyscouts/contact/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>http://limograf.com/caldervalleyscouts/contact/</guid>
-      <description>  (function() { var qs,js,q,s,d=document, gi=d.getElementById, ce=d.createElement, gt=d.getElementsByTagName, id=&#34;typef_orm&#34;, b=&#34;https://embed.typeform.com/&#34;; if(!gi.call(d,id)) { js=ce.call(d,&#34;script&#34;); js.id=id; js.src=b+&#34;embed.js&#34;; q=gt.call(d,&#34;script&#34;)[0]; q.parentNode.insertBefore(js,q) } })()  powered by Typeform  </description>
+      <description>(function() { var qs,js,q,s,d=document, gi=d.getElementById, ce=d.createElement, gt=d.getElementsByTagName, id=&#34;typef_orm&#34;, b=&#34;https://embed.typeform.com/&#34;; if(!gi.call(d,id)) { js=ce.call(d,&#34;script&#34;); js.id=id; js.src=b+&#34;embed.js&#34;; q=gt.call(d,&#34;script&#34;)[0]; q.parentNode.insertBefore(js,q) } })()  powered by Typeform  dave@caldervalleyscouts.org.uk | 08432890163 | Facebook</description>
     </item>
     
     <item>
@@ -46,7 +31,7 @@ Our second bus is a 2006 LDV Convoy. It is a 17 seater again, but 12 of the seat
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>http://limograf.com/caldervalleyscouts/facebook/</guid>
-      <description>We&#39;re on Facebook We mainly hang out on Facebook. Join us there:
+      <description>We&amp;rsquo;re on Facebook We mainly hang out on Facebook. Join us there:
    </description>
     </item>
     
@@ -67,7 +52,7 @@ Beavers are young people aged 6 to 8 who:
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>http://limograf.com/caldervalleyscouts/join/cubs/</guid>
-      <description>Cubs - 8 to 10½ years </description>
+      <description>Cubs - 8 to 11 years Cubs is for boys and girls from 8 to 11 years old who love adventures and the outdoors. They meet from 5.45pm to 7.15pm every Thursday.</description>
     </item>
     
     <item>
@@ -87,6 +72,20 @@ Beavers are young people aged 6 to 8 who:
       <guid>http://limograf.com/caldervalleyscouts/join/scouts/</guid>
       <description>Scouts 11 to 14 years Scouts are for boys and girls from 11 to 14 years old, and meet from 7.30pm to 9.15pm every Thursday.
 Testimonial from Charlotte I enjoy coming to scouts as it is a nice way to get outdoors and do fun activities with professionals. It is also a really great atmosphere as everyone is so inclusive and I would 100% recommend coming to make new friends and memories.</description>
+<<<<<<< HEAD
+=======
+    </item>
+    
+    <item>
+      <title>Minibus Bookings</title>
+      <link>http://limograf.com/caldervalleyscouts/bookings/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://limograf.com/caldervalleyscouts/bookings/</guid>
+      <description>We have 2 minibuses which are available for use by other community groups.
+Our newer bus is a 2013 Ford Transit 17 seater. This bus has a towbar fitted so can be used with a trailer. As it is over 3.5 tonnes, drivers need category D1 on their licence to drive this bus.
+Our second bus is a 2006 LDV Convoy. It is a 17 seater again, but 12 of the seats are removable and it has a wheelchair lift fitted.</description>
+>>>>>>> 1.0.1
     </item>
     
     <item>
@@ -95,7 +94,7 @@ Testimonial from Charlotte I enjoy coming to scouts as it is a nice way to get o
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>http://limograf.com/caldervalleyscouts/join/volunteer/</guid>
-      <description>Volunteering with Scouts Each week, we give over 450,000 young people the opportunity to enjoy fun and adventure while developing the skills they need to succeed. We’re talking about teamwork, leadership and resilience – skills that have helped Scouts become everything from teachers and social workers to astronauts and Olympians.
+      <description>Volunteering with Scouts Each week, nationwide, we give over 450,000 young people (over 100 in Todmorden) the opportunity to enjoy fun and adventure while developing the skills they need to succeed. We’re talking about teamwork, leadership and resilience – skills that have helped Scouts become everything from teachers and social workers to astronauts and Olympians.
 We believe in bringing people together. We celebrate diversity and stand against intolerance, always. We’re part of a worldwide movement, creating stronger communities and inspiring positive futures.</description>
     </item>
     

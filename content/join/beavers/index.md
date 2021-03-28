@@ -6,7 +6,7 @@ tagline= "Try new things. Make new friends. Joining Beavers is just the beginnin
 
 [[resources]]
   name = "header"
-  src = "beaver-and-cub-playing-with-ball-jpg.jpg"
+  src = "beavers.jpg"
 
 +++
 

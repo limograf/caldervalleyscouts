@@ -11,7 +11,7 @@
 {{ if $cover }}
 
 <!-- now resize the resource-->
-{{ $cover := $cover.Resize "600x400" }}
+{{ $cover := $cover.Fill "600x400" }}
 
 <!-- now show it -->
 	<img src="{{ $cover.RelPermalink }}" alt="" />

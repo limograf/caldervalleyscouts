@@ -11,10 +11,6 @@
   </url>
   
   <url>
-    <loc>http://limograf.com/caldervalleyscouts/bookings/</loc>
-  </url>
-  
-  <url>
     <loc>http://limograf.com/caldervalleyscouts/contact/</loc>
   </url>
   
@@ -40,6 +36,10 @@
   
   <url>
     <loc>http://limograf.com/caldervalleyscouts/join/scouts/</loc>
+  </url>
+  
+  <url>
+    <loc>http://limograf.com/caldervalleyscouts/bookings/</loc>
   </url>
   
   <url>
