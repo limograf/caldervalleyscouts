@@ -1,12 +1,12 @@
 +++
 title= "Join Beavers"
-join = "/contact"
+join = "contact"
 scoutslink = "https://scouts.org.uk/beavers/"
 tagline= "Try new things. Make new friends. Joining Beavers is just the beginning of your big adventure."
 
 [[resources]]
   name = "header"
-  src = "beaver-and-cub-playing-with-ball-jpg.jpg"
+  src = "beavers.jpg"
 
 +++
 

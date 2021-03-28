@@ -1,11 +1,11 @@
-baseURL = "http://limograf.com/caldervalleyscouts/"
+baseURL = "https://www.caldervalleyscouts.org.uk/"
 languageCode = "en-us"
 title = "Calder Valley Scouts"
 disableKinds = ["taxonomy", "taxonomyTerm"]
 publishDir = "docs"
 [Params]
   logo = "/images/Scouts_Logo_Stack_White.png"
-  indexed = false
+  indexed = true
 
 
 
