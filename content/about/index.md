@@ -6,7 +6,7 @@ title = 'About'
   src = "scoutsabout.jpg"
 +++
 
-### About [8th/26th Calder Valley](https://scouts.org.uk/groups/8th26th-calder-valley-scout-group) Scouts
+### About [8th/26th Calder Valley](https://www.scouts.org.uk/groups/10013574?loc=ol14%205le&slug=8th%2F26th-Calder-Valley-Scout-Group) Scouts
 
 We meet at [Central Methodist Church](https://calderdalemethodists.org.uk/churches/todmorden.php), Todmorden and have been in existence for over 50 years. We accept all Christian denominations and all religions or none. We do not attend regular church parades at Central, but we do support the [RBL’s remembrance day](https://www.britishlegion.org.uk/get-involved/remembrance/about-remembrance) and Veteran’s day parades. We also support [Todmorden Gang Show](https://www.todgangshow.org.uk/), which has been running nearly as long as the Group!
 
