@@ -22,7 +22,7 @@ Jump in and get muddy. Give back and get set. Scouts ignore the butterflies and 
 
 ### Join us
 
-If you would like to come and see what we do then please come along to any of the meetings. All meetings start at Central Methodist Church, Todmorden, just off Bramsche Square. If you want to find out any more details please e mail dave@caldervalleyscouts.org.uk or call 08432890163 or find us on Facebook
+If you would like to come and see what we do then please come along to any of the meetings. All meetings start at Central Methodist Church, Todmorden, just off Bramsche Square. If you want to find out any more details please e mail dave@caldervalleyscouts.org.uk or call [03330 444 369](tel:03330444369) or find us on Facebook
 
 Join us at Central Methodist Church and on Facebook!
 
