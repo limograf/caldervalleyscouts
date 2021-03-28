@@ -38,4 +38,4 @@ A. This would depend on what the record was for, and how long since the offence.
 #### Q. What time would I be expected to commit to?
 A. Ideally we would want the helpers to be available for the regular weekly meetings, as far as is possible. There is also a training commitment for all uniformed leaders, but we are talking about a few hours a year. Apart from the above the time that you give will be very much up to you.
 
-If you would like to know more either e-mail dave@caldervalleyscouts.org.uk or phone 0843 2890163.
+If you would like to know more either e-mail dave@caldervalleyscouts.org.uk or phone [03330 444 369](tel:03330444369)
