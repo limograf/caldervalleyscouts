@@ -13,4 +13,4 @@ tagline= 'Try more. See more. Do more. At Explorers, you’ll stand on your own 
 
 ## Explorers 14 to 18 years
 
-Explorers are for boys and girls from 14 to 18 years old, and meet from 7.30pm to 9.15pm every Thursday.
+Explorers are for young people from 14 to 18 years old, and meet from 7.30pm to 9.15pm every Thursday.

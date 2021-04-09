@@ -11,7 +11,7 @@ join= "contact"
 
 ## Scouts 11 to 14 years
 
-Scouts are for boys and girls from 11 to 14 years old, and meet from 7.30pm to 9.15pm every Thursday.
+Scouts are for young people from 11 to 14 years old, and meet from 7.30pm to 9.15pm every Thursday.
 
 ### Testimonial from Charlotte
 
